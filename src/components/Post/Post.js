@@ -72,11 +72,11 @@ export default class Post extends Component {
             </p>
 
             <div className="btnHolder">
-              <button className="btn" onClick={this.up}>
-                up
-              </button>
               <button className="btn" onClick={this.down}>
                 down
+              </button>
+              <button className="btn" onClick={this.up}>
+                up
               </button>
             </div>
           </div>
