@@ -1,0 +1,57 @@
+.post-container {
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+
+.post {
+    background-color: green;
+    width: 60vw;
+    height: 50vh;
+    color:black;
+    display:flex;
+    flex-direction: column;
+}
+
+.span{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    color: red;
+}
+
+
+.pos{
+    align-self: flex-end
+}
+
+.name {
+    font-size: 20px;
+    border-bottom: solid 3px ;
+
+}
+
+p {
+    margin-left: 5px;
+    margin-right: 5px
+
+}
+
+
+.btnHolder {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}   
+
+.btn {
+    width: 100px;
+    height: 20px;
+}
